@@ -1,0 +1,52 @@
+################################################################################
+# SimActive Script File
+# Copyright(c) 2003 SimActive Inc.
+# All rights reserved.
+#################################################################################
+<AerialTriangulation>
+{
+	ATFolder           D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\AT\
+	CameraCalibration  Unconstrained
+	EOAdjustment       UnconstrainedAT
+	ExtractionType     Standard
+	InputEO            D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\IEO\Initial\Initial.ieo
+	OutputDEM          D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\MNE\MNEOrigine.tif
+	TiePointExtraction On
+}
+<DSMGeneration>
+{
+	AboveGroundVar     Automatic
+	BelowGroundVar     Automatic
+	GeneratePointCloud Off
+	InputDEM           D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\MNE\MNEOrigine.tif
+	InputEO            D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\IEO\Step_1\Step_1.ieo
+	OutputDEM          D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\MNE\MNS.tif
+	Resolution         Optimal
+	VertAccuracy       Optimal
+}
+<DTMExtraction>
+{
+	InputDEM  D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\MNE\MNS.tif
+	OutputDEM D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\MNE\MNT.tif
+}
+<Orthorectification>
+{
+	DSMBased        Off
+	InputDEM        D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\MNE\MNT.tif
+	InputEO         D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\IEO\Step_1\Step_1.ieo
+	OutputFormat    GeoTIFF
+	OutputORIFolder D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\ImagesOrtho\
+	Overlap         Maximal
+	Overviews       On
+	Resolution      Optimal
+	TiledTiff       Tiled
+}
+<MosaicCreation>
+{
+	ColorBalancing On
+	Feathering     37
+	InputORIList   D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\ImagesOrtho\Step_1.orl
+	MinNumBlocks   1
+	MosaicName     Mosaïque
+	OutputFolder   D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\
+}

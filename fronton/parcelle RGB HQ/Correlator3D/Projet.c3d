@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectSchema110.xsd" version="1.10" minimumVersion="1.10">
+  <OriginalPath>D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\Projet.c3d</OriginalPath>
+  <RootFolders>
+    <RootFolder id="DIR_1">D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\Correlator3D\</RootFolder>
+  </RootFolders>
+  <Items>
+    <IEO id="ProjectIEO">
+      <Name SubFolder="IEO\" RootFolder="DIR_1" />
+    </IEO>
+    <ATFolder id="ProjectAT">
+      <Name SubFolder="" RootFolder="DIR_1">AT\</Name>
+    </ATFolder>
+    <Ortho id="ProjectOrtho">
+      <Name SubFolder="ImagesOrtho\" RootFolder="DIR_1">Step_1.orl</Name>
+    </Ortho>
+    <Mosaic id="ProjectMosaic">
+      <Name SubFolder="Mosaïque\" RootFolder="DIR_1">Mosaic.sbd</Name>
+    </Mosaic>
+    <DEM id="DEM_0">
+      <Name SubFolder="MNE\" RootFolder="DIR_1">MNEOrigine.tif</Name>
+    </DEM>
+    <DEM id="DEM_1">
+      <Name SubFolder="MNE\" RootFolder="DIR_1">MNS.tif</Name>
+    </DEM>
+    <DEM id="DEM_2">
+      <Name SubFolder="MNE\" RootFolder="DIR_1">MNT.tif</Name>
+    </DEM>
+    <Projection>
+      <Proj4>+init=EPSG:32631</Proj4>
+      <Description>UTM WGS84 Zone 31N</Description>
+    </Projection>
+  </Items>
+</Project>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<InteriorExteriorOrientation minimumVersion="1.00" version="1.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="IEOSchema100.xsd">
+
+  <Sensor>FrameBased</Sensor>
+
+  <Projection>
+    <Proj4>+init=EPSG:32631</Proj4>
+    <Description>UTM WGS84 Zone 31N</Description>
+  </Projection>
+
+  <RootFolders>
+    <RootFolder id="DIR_1">D:\Documents\activité drone\gestion technique\imagerie agri viti\Parecelle Fronton\parcelle RGB HQ\</RootFolder>
+  </RootFolders>
+
+  <CameraGroups>
+    <CameraGroup id="GRP_001"/>
+  </CameraGroups>
+
+  <Cameras>
+    <CameraPolynomial group="GRP_001" id="CAM_001">
+      <Name>Caméra 1 (FC300X from DJI)</Name>
+      <ImageWidth>4000</ImageWidth>
+      <ImageHeight>3000</ImageHeight>
+      <FocalLength>3</FocalLength>
+      <PrincipalPoint Xmm="0" Ymm="0"/>
+      <PixelSize>1</PixelSize>
+      <Polynome>
+        <K0>0</K0>
+        <K1>0</K1>
+        <K2>0</K2>
+        <K3>0</K3>
+        <K4>0</K4>
+        <K5>0</K5>
+        <K6>0</K6>
+        <K7>0</K7>
+        <P1>0</P1>
+        <P2>0</P2>
+        <P3>0</P3>
+        <P4>0</P4>
+      </Polynome>
+    </CameraPolynomial>
+  </Cameras>
+
+  <Images>
+    <ImageFB active="true" id="IMG_000001">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0491.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>0</Frame>
+      <Position easting="364661.944676" elevation="164.293000" northing="4856253.774090"/>
+      <Orientation kappa="-58.133230" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000002">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0492.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>1</Frame>
+      <Position easting="364668.135074" elevation="164.393000" northing="4856257.648102"/>
+      <Orientation kappa="-57.992594" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000003">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0493.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>2</Frame>
+      <Position easting="364677.094609" elevation="164.293000" northing="4856263.243542"/>
+      <Orientation kappa="-58.133079" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000004">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0494.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>3</Frame>
+      <Position easting="364683.365370" elevation="164.393000" northing="4856267.115931"/>
+      <Orientation kappa="-58.160996" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000005">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0495.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>4</Frame>
+      <Position easting="364686.623581" elevation="164.393000" northing="4856269.160740"/>
+      <Orientation kappa="-58.416011" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000006">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0496.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>5</Frame>
+      <Position easting="364692.811689" elevation="164.193000" northing="4856272.923707"/>
+      <Orientation kappa="-58.570280" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000007">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0497.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>6</Frame>
+      <Position easting="364701.931945" elevation="164.393000" northing="4856278.515908"/>
+      <Orientation kappa="-58.552179" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000008">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0498.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>7</Frame>
+      <Position easting="364704.944479" elevation="164.393000" northing="4856280.343500"/>
+      <Orientation kappa="-58.376669" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000009">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0499.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>8</Frame>
+      <Position easting="364713.984333" elevation="164.193000" northing="4856285.937353"/>
+      <Orientation kappa="-58.615590" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000010">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0500.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>9</Frame>
+      <Position easting="364719.926745" elevation="164.293000" northing="4856289.483120"/>
+      <Orientation kappa="-58.147512" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000011">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0501.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>10</Frame>
+      <Position easting="364731.820592" elevation="164.393000" northing="4856297.018937"/>
+      <Orientation kappa="-58.013638" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000012">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0502.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>11</Frame>
+      <Position easting="364737.845626" elevation="164.393000" northing="4856300.674150"/>
+      <Orientation kappa="-58.756025" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000013">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0503.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>12</Frame>
+      <Position easting="364745.027908" elevation="164.193000" northing="4856297.972387"/>
+      <Orientation kappa="-151.266612" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000014">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0504.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>13</Frame>
+      <Position easting="364749.524999" elevation="164.293000" northing="4856289.769634"/>
+      <Orientation kappa="-151.266612" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000015">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0505.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>14</Frame>
+      <Position easting="364744.487136" elevation="164.393000" northing="4856287.205448"/>
+      <Orientation kappa="120.556568" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000016">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0506.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>15</Frame>
+      <Position easting="364738.301333" elevation="164.393000" northing="4856283.553500"/>
+      <Orientation kappa="121.069619" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000017">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0507.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>16</Frame>
+      <Position easting="364732.356666" elevation="164.393000" northing="4856279.896651"/>
+      <Orientation kappa="121.497309" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000018">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0508.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>17</Frame>
+      <Position easting="364720.223908" elevation="164.393000" northing="4856272.476808"/>
+      <Orientation kappa="121.497244" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000019">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0509.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>18</Frame>
+      <Position easting="364714.279220" elevation="164.493000" northing="4856268.819974"/>
+      <Orientation kappa="121.979229" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000020">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0510.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>19</Frame>
+      <Position easting="364708.332265" elevation="164.493000" northing="4856265.052078"/>
+      <Orientation kappa="121.526058" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000021">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0511.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>20</Frame>
+      <Position easting="364699.377282" elevation="164.493000" northing="4856259.678729"/>
+      <Orientation kappa="121.384222" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000022">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0512.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>21</Frame>
+      <Position easting="364693.349929" elevation="164.493000" northing="4856255.912483"/>
+      <Orientation kappa="122.177672" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000023">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0513.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>22</Frame>
+      <Position easting="364687.402951" elevation="164.493000" northing="4856252.144606"/>
+      <Orientation kappa="122.357433" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000024">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0514.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>23</Frame>
+      <Position easting="364681.455965" elevation="164.393000" northing="4856248.376734"/>
+      <Orientation kappa="121.978870" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000025">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0515.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>24</Frame>
+      <Position easting="364675.511235" elevation="164.393000" northing="4856244.719933"/>
+      <Orientation kappa="121.800007" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000026">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0516.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>25</Frame>
+      <Position easting="364669.483854" elevation="164.393000" northing="4856240.953708"/>
+      <Orientation kappa="121.035236" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000027">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0517.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>26</Frame>
+      <Position easting="364663.543633" elevation="164.393000" northing="4856237.519052"/>
+      <Orientation kappa="121.211788" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000028">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0518.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>27</Frame>
+      <Position easting="364657.596621" elevation="164.393000" northing="4856233.751201"/>
+      <Orientation kappa="121.978609" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000029">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0519.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>28</Frame>
+      <Position easting="364651.651863" elevation="164.393000" northing="4856230.094421"/>
+      <Orientation kappa="121.596753" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000030">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0520.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>29</Frame>
+      <Position easting="364645.707099" elevation="164.393000" northing="4856226.437647"/>
+      <Orientation kappa="121.418960" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000031">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0521.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>30</Frame>
+      <Position easting="364639.681947" elevation="164.393000" northing="4856222.782515"/>
+      <Orientation kappa="121.514347" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000032">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0522.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>31</Frame>
+      <Position easting="364627.466334" elevation="164.393000" northing="4856215.253408"/>
+      <Orientation kappa="121.998858" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000033">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0523.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>32</Frame>
+      <Position easting="364621.599663" elevation="164.393000" northing="4856211.483951"/>
+      <Orientation kappa="122.277941" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000034">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0524.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>33</Frame>
+      <Position easting="364612.640010" elevation="164.393000" northing="4856205.888583"/>
+      <Orientation kappa="121.501021" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000035">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0525.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>34</Frame>
+      <Position easting="364609.140599" elevation="164.393000" northing="4856203.848722"/>
+      <Orientation kappa="120.238576" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000036">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0526.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>35</Frame>
+      <Position easting="364610.764205" elevation="164.493000" northing="4856196.704423"/>
+      <Orientation kappa="-146.906015" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000037">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0527.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>36</Frame>
+      <Position easting="364614.507162" elevation="164.493000" northing="4856190.961421"/>
+      <Orientation kappa="-147.456275" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000038">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0528.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>37</Frame>
+      <Position easting="364615.361954" elevation="164.493000" northing="4856189.499542"/>
+      <Orientation kappa="-149.684251" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000039">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0529.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>38</Frame>
+      <Position easting="364628.002159" elevation="164.493000" northing="4856198.131110"/>
+      <Orientation kappa="-57.257939" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000040">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0530.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>39</Frame>
+      <Position easting="364634.031864" elevation="164.493000" northing="4856202.008365"/>
+      <Orientation kappa="-57.627939" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000041">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0531.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>40</Frame>
+      <Position easting="364640.059300" elevation="164.493000" northing="4856205.774559"/>
+      <Orientation kappa="-57.822974" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000042">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0532.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>41</Frame>
+      <Position easting="364646.006347" elevation="164.493000" northing="4856209.542396"/>
+      <Orientation kappa="-57.822908" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000043">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0533.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>42</Frame>
+      <Position easting="364652.033769" elevation="164.493000" northing="4856213.308600"/>
+      <Orientation kappa="-58.200311" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000044">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0534.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>43</Frame>
+      <Position easting="364657.978540" elevation="164.393000" northing="4856216.965380"/>
+      <Orientation kappa="-58.021448" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000045">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0535.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>44</Frame>
+      <Position easting="364663.925567" elevation="164.393000" northing="4856220.733232"/>
+      <Orientation kappa="-58.335623" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000046">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0536.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>45</Frame>
+      <Position easting="364676.464914" elevation="164.493000" northing="4856228.366926"/>
+      <Orientation kappa="-58.546054" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000047">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0537.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>46</Frame>
+      <Position easting="364682.735707" elevation="164.493000" northing="4856232.239314"/>
+      <Orientation kappa="-58.303485" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000048">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0538.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>47</Frame>
+      <Position easting="364689.006493" elevation="164.393000" northing="4856236.111709"/>
+      <Orientation kappa="-58.091381" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000049">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0539.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>48</Frame>
+      <Position easting="364695.522938" elevation="164.493000" northing="4856240.201334"/>
+      <Orientation kappa="-58.132990" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000050">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0540.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>49</Frame>
+      <Position easting="364701.467661" elevation="164.393000" northing="4856243.858152"/>
+      <Orientation kappa="-58.199770" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000051">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0541.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>50</Frame>
+      <Position easting="364707.495020" elevation="164.393000" northing="4856247.624405"/>
+      <Orientation kappa="-58.199705" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000052">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0542.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>51</Frame>
+      <Position easting="364713.439729" elevation="164.493000" northing="4856251.281234"/>
+      <Orientation kappa="-58.147707" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000053">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0543.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>52</Frame>
+      <Position easting="364725.331389" elevation="164.393000" northing="4856258.705973"/>
+      <Orientation kappa="-58.027720" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000054">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0544.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>53</Frame>
+      <Position easting="364731.195697" elevation="164.393000" northing="4856262.364453"/>
+      <Orientation kappa="-58.222981" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000055">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0545.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>54</Frame>
+      <Position easting="364737.140380" elevation="164.293000" northing="4856266.021302"/>
+      <Orientation kappa="-58.781114" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000056">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0546.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>55</Frame>
+      <Position easting="364746.095323" elevation="164.293000" northing="4856271.394701"/>
+      <Orientation kappa="-58.781049" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000057">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0547.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>56</Frame>
+      <Position easting="364752.039989" elevation="164.293000" northing="4856275.051563"/>
+      <Orientation kappa="-58.484457" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000058">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0548.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>57</Frame>
+      <Position easting="364757.495582" elevation="164.393000" northing="4856278.385043"/>
+      <Orientation kappa="-58.574205" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000059">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0549.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>58</Frame>
+      <Position easting="364760.524222" elevation="164.293000" northing="4856273.101113"/>
+      <Orientation kappa="171.230176" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000060">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0550.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>59</Frame>
+      <Position easting="364758.764198" elevation="164.193000" northing="4856261.692308"/>
+      <Orientation kappa="171.230176" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000061">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0551.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>60</Frame>
+      <Position easting="364752.821784" elevation="164.293000" northing="4856258.146507"/>
+      <Orientation kappa="120.896954" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000062">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0552.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>61</Frame>
+      <Position easting="364746.716341" elevation="164.393000" northing="4856254.492915"/>
+      <Orientation kappa="120.861051" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000063">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0553.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>62</Frame>
+      <Position easting="364740.773914" elevation="164.493000" northing="4856250.947124"/>
+      <Orientation kappa="121.419874" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000064">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0554.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>63</Frame>
+      <Position easting="364734.746578" elevation="164.493000" northing="4856247.180841"/>
+      <Orientation kappa="121.800532" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000065">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0555.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>64</Frame>
+      <Position easting="364728.801878" elevation="164.393000" northing="4856243.523994"/>
+      <Orientation kappa="121.991641" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000066">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0556.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>65</Frame>
+      <Position easting="364719.759721" elevation="164.393000" northing="4856237.819053"/>
+      <Orientation kappa="121.892467" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000067">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0557.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>66</Frame>
+      <Position easting="364707.707256" elevation="164.393000" northing="4856230.397595"/>
+      <Orientation kappa="121.610283" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000068">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0558.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>67</Frame>
+      <Position easting="364695.817787" elevation="164.393000" northing="4856223.083953"/>
+      <Orientation kappa="121.716589" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000069">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0559.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>68</Frame>
+      <Position easting="364689.953425" elevation="164.393000" northing="4856219.425504"/>
+      <Orientation kappa="121.822932" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000070">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0560.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>69</Frame>
+      <Position easting="364683.682625" elevation="164.493000" northing="4856215.553108"/>
+      <Orientation kappa="121.648077" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000071">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0561.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>70</Frame>
+      <Position easting="364677.737867" elevation="164.393000" northing="4856211.896305"/>
+      <Orientation kappa="121.596914" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000072">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0562.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>71</Frame>
+      <Position easting="364671.793103" elevation="164.493000" northing="4856208.239508"/>
+      <Orientation kappa="121.647944" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000073">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0563.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>72</Frame>
+      <Position easting="364665.522281" elevation="164.393000" northing="4856204.367129"/>
+      <Orientation kappa="121.844943" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000074">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0564.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>73</Frame>
+      <Position easting="364659.494859" elevation="164.493000" northing="4856200.600912"/>
+      <Orientation kappa="121.622616" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000075">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0565.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>74</Frame>
+      <Position easting="364653.469692" elevation="164.493000" northing="4856196.945767"/>
+      <Orientation kappa="121.418923" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000076">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0566.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>75</Frame>
+      <Position easting="364647.524901" elevation="164.493000" northing="4856193.288991"/>
+      <Orientation kappa="121.978375" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000077">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0567.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>76</Frame>
+      <Position easting="364641.577841" elevation="164.393000" northing="4856189.521153"/>
+      <Orientation kappa="121.799513" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000078">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0568.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>77</Frame>
+      <Position easting="364635.552654" elevation="164.293000" northing="4856185.866025"/>
+      <Orientation kappa="121.647549" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000079">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0569.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>78</Frame>
+      <Position easting="364629.362172" elevation="164.393000" northing="4856181.992042"/>
+      <Orientation kappa="121.822273" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+    <ImageFB active="true" id="IMG_000080">
+      <Name RootFolder="DIR_1" SubFolder="">DJI_0570.JPG</Name>
+      <Camera ref="CAM_001"/>
+      <Frame>79</Frame>
+      <Position easting="364623.417353" elevation="164.393000" northing="4856178.335287"/>
+      <Orientation kappa="121.596354" omega="0.000000" phi="0.000000"/>
+    </ImageFB>
+  </Images>
+
+  <FlightLines>
+    <FlightLine active="true" id="FL_000001">
+      <Image ref="IMG_000001"/>
+      <Image ref="IMG_000002"/>
+      <Image ref="IMG_000003"/>
+      <Image ref="IMG_000004"/>
+      <Image ref="IMG_000005"/>
+      <Image ref="IMG_000006"/>
+      <Image ref="IMG_000007"/>
+      <Image ref="IMG_000008"/>
+      <Image ref="IMG_000009"/>
+      <Image ref="IMG_000010"/>
+      <Image ref="IMG_000011"/>
+      <Image ref="IMG_000012"/>
+    </FlightLine>
+    <FlightLine active="true" id="FL_000002">
+      <Image ref="IMG_000013"/>
+      <Image ref="IMG_000014"/>
+    </FlightLine>
+    <FlightLine active="true" id="FL_000003">
+      <Image ref="IMG_000015"/>
+      <Image ref="IMG_000016"/>
+      <Image ref="IMG_000017"/>
+      <Image ref="IMG_000018"/>
+      <Image ref="IMG_000019"/>
+      <Image ref="IMG_000020"/>
+      <Image ref="IMG_000021"/>
+      <Image ref="IMG_000022"/>
+      <Image ref="IMG_000023"/>
+      <Image ref="IMG_000024"/>
+      <Image ref="IMG_000025"/>
+      <Image ref="IMG_000026"/>
+      <Image ref="IMG_000027"/>
+      <Image ref="IMG_000028"/>
+      <Image ref="IMG_000029"/>
+      <Image ref="IMG_000030"/>
+      <Image ref="IMG_000031"/>
+      <Image ref="IMG_000032"/>
+      <Image ref="IMG_000033"/>
+      <Image ref="IMG_000034"/>
+      <Image ref="IMG_000035"/>
+    </FlightLine>
+    <FlightLine active="true" id="FL_000004">
+      <Image ref="IMG_000036"/>
+      <Image ref="IMG_000037"/>
+      <Image ref="IMG_000038"/>
+    </FlightLine>
+    <FlightLine active="true" id="FL_000005">
+      <Image ref="IMG_000039"/>
+      <Image ref="IMG_000040"/>
+      <Image ref="IMG_000041"/>
+      <Image ref="IMG_000042"/>
+      <Image ref="IMG_000043"/>
+      <Image ref="IMG_000044"/>
+      <Image ref="IMG_000045"/>
+      <Image ref="IMG_000046"/>
+      <Image ref="IMG_000047"/>
+      <Image ref="IMG_000048"/>
+      <Image ref="IMG_000049"/>
+      <Image ref="IMG_000050"/>
+      <Image ref="IMG_000051"/>
+      <Image ref="IMG_000052"/>
+      <Image ref="IMG_000053"/>
+      <Image ref="IMG_000054"/>
+      <Image ref="IMG_000055"/>
+      <Image ref="IMG_000056"/>
+      <Image ref="IMG_000057"/>
+      <Image ref="IMG_000058"/>
+    </FlightLine>
+    <FlightLine active="true" id="FL_000006">
+      <Image ref="IMG_000059"/>
+      <Image ref="IMG_000060"/>
+    </FlightLine>
+    <FlightLine active="true" id="FL_000007">
+      <Image ref="IMG_000061"/>
+      <Image ref="IMG_000062"/>
+      <Image ref="IMG_000063"/>
+      <Image ref="IMG_000064"/>
+      <Image ref="IMG_000065"/>
+      <Image ref="IMG_000066"/>
+      <Image ref="IMG_000067"/>
+      <Image ref="IMG_000068"/>
+      <Image ref="IMG_000069"/>
+      <Image ref="IMG_000070"/>
+      <Image ref="IMG_000071"/>
+      <Image ref="IMG_000072"/>
+      <Image ref="IMG_000073"/>
+      <Image ref="IMG_000074"/>
+      <Image ref="IMG_000075"/>
+      <Image ref="IMG_000076"/>
+      <Image ref="IMG_000077"/>
+      <Image ref="IMG_000078"/>
+      <Image ref="IMG_000079"/>
+      <Image ref="IMG_000080"/>
+    </FlightLine>
+  </FlightLines>
+
+</InteriorExteriorOrientation>

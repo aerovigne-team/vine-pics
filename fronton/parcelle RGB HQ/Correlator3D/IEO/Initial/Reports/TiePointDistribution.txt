@@ -1,0 +1,84 @@
+-------------------------------------------------------------------
+           Tie Point Distribution Based on Observations            
+===================================================================
+Number of tie points with 24 observations:                        1
+Number of tie points with 23 observations:                        0
+Number of tie points with 22 observations:                        0
+Number of tie points with 21 observations:                        2
+Number of tie points with 20 observations:                        0
+Number of tie points with 19 observations:                        1
+Number of tie points with 18 observations:                        1
+Number of tie points with 17 observations:                        3
+Number of tie points with 16 observations:                        3
+Number of tie points with 15 observations:                        7
+Number of tie points with 14 observations:                        8
+Number of tie points with 13 observations:                       14
+Number of tie points with 12 observations:                       14
+Number of tie points with 11 observations:                       19
+Number of tie points with 10 observations:                       38
+Number of tie points with  9 observations:                       46
+Number of tie points with  8 observations:                      132
+Number of tie points with  7 observations:                      208
+Number of tie points with  6 observations:                      216
+Number of tie points with  5 observations:                      245
+Number of tie points with  4 observations:                      257
+Number of tie points with  3 observations:                      213
+Number of tie points with  2 observations:                      233
+Number of tie points with  1 observation:                         0
+Number of tie points with  0 observation:                         0
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+              Image Distribution Based on Tie Points               
+===================================================================
+Number of images with more than 50 tie points:                   80
+Number of images with 40 to 50 tie points:                        0
+Number of images with 30 to 40 tie points:                        0
+Number of images with 20 to 30 tie points:                        0
+Number of images with 10 to 20 tie points:                        0
+Number of images with  0 to 10 tie points:                        0
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+             Tie Point Distribution Based on Residuals             
+===================================================================
+Number of tie points with residual between 0.00 and  0.50:        1
+Number of tie points with residual between 0.50 and  1.00:        0
+Number of tie points with residual between 1.00 and  2.00:        0
+Number of tie points with residual between 2.00 and  3.00:        1
+Number of tie points with residual between 3.00 and  4.00:        2
+Number of tie points with residual between 4.00 and  5.00:        4
+Number of tie points with residual between 5.00 and 10.00:       16
+Number of tie points with residual greater than 10.00:         1637
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+          Image Distribution Based on Tie Point Residuals          
+===================================================================
+Number of images with residual between 0.00 and  0.50:            0
+Number of images with residual between 0.50 and  1.00:            0
+Number of images with residual between 1.00 and  2.00:            0
+Number of images with residual between 2.00 and  3.00:            0
+Number of images with residual between 3.00 and  4.00:            0
+Number of images with residual between 4.00 and  5.00:            0
+Number of images with residual between 5.00 and 10.00:            0
+Number of images with residual greater than 10.00:               80
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+       Tie Point Observation Distribution Based on Residuals       
+===================================================================
+Number of observations with residual between 0.00 and  0.50:    444
+Number of observations with residual between 0.50 and  1.00:     31
+Number of observations with residual between 1.00 and  2.00:     53
+Number of observations with residual between 2.00 and  3.00:     42
+Number of observations with residual between 3.00 and  4.00:     48
+Number of observations with residual between 4.00 and  5.00:     46
+Number of observations with residual between 5.00 and 10.00:    201
+Number of observations with residual greater than 10.00:       8073
+-------------------------------------------------------------------
+
+Notes
+-------------------------------------------------------------------
+* Residuals are in pixels.
+* Distributions are based on the used observations.

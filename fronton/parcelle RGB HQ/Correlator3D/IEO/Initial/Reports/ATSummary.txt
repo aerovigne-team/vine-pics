@@ -1,0 +1,96 @@
+----------------------------------------------------------------------
+                            AT Summary                             
+======================================================================
+Average tie point residual error:                               310.92
+Standard deviation for tie point residual error:                416.95
+GCPs not used                                                         
+Check points not used                                                 
+Reference points not used                                             
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+             Image Adjustment Summary for Camera System 0             
+======================================================================
+ Applied Boresight          Average (abs)             Maximum (abs)   
+-------------------      -------------------       -------------------
+X:            0.000      X:            0.000       X:            0.000
+Y:            0.000      Y:            0.000       Y:            0.000
+Z:            0.000      Z:            0.000       Z:            0.000
+Omega:        0.000      Omega:        0.000       Omega:        0.000
+Phi:          0.000      Phi:          0.000       Phi:          0.000
+Kappa:        0.000      Kappa:        0.000       Kappa:        0.000
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+                Image Adjustment Summary for Camera 0                 
+======================================================================
+ Applied Boresight          Average (abs)             Maximum (abs)   
+-------------------      -------------------       -------------------
+X:            0.000      X:            0.000       X:            0.000
+Y:            0.000      Y:            0.000       Y:            0.000
+Z:            0.000      Z:            0.000       Z:            0.000
+Omega:        0.000      Omega:        0.000       Omega:        0.000
+Phi:          0.000      Phi:          0.000       Phi:          0.000
+Kappa:        0.000      Kappa:        0.000       Kappa:        0.000
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+                           Image Summary                           
+======================================================================
+Total number of images:                                             80
+Number of boresighted images:                                       80
+Number of ATed images:                                              80
+Number of images without tie points:                                 0
+Minimum (non-zero) number of tie points per image:                  70
+Average number of tie points per image:                          111.7
+Maximum number of tie points per image:                            141
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+                         Tie Point Summary                         
+======================================================================
+Total number of tie points:                                       1661
+Number of used tie points:                                        1661
+Number of discarded tie points:                                      0
+Minimum (non-zero) number of observations per tie point:             2
+Average number of observations per tie point:                      5.4
+Maximum number of observations per tie point:                       24
+Min, max pixel residual error:                         [0.00, 4371.39]
+RMS pixel residual error:                                       719.64
+Average pixel residual error:                                   310.92
+Standard deviation of pixel residual error:                     416.95
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+                   Tie Point Observation Summary                   
+======================================================================
+Total number of observations:                                     8938
+Number of used observations:                                      8938
+Number of discarded observations:                                    0
+Min, max pixel residual error:                         [0.00, 4371.39]
+RMS pixel residual error:                                       847.54
+Average pixel residual error:                                   399.36
+Standard deviation of pixel residual error:                     747.56
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+                     Images with no Tie Points                     
+======================================================================
+None                                                                  
+----------------------------------------------------------------------
+
+
+Notes
+----------------------------------------------------------------------
+* XYZ residuals are in meters or feet, depending on the units used in
+  the input EO file.
+* Other residual values are in pixels.
+* Position corrections are in meters or feet, depending on the
+  units used in the input EO file.
+* Angular corrections are in degrees.
